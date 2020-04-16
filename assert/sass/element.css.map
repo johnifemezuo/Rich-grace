@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAMA,AAAA,IAAI,CAAC;EACD,aAAa,EAAE,GAAG;CACrB;;AACD,AAAA,IAAI,CAAC;EACD,aAAa,EAAE,GAAG;CACrB;;AACD,AAAA,IAAI,CAAC;EACD,aAAa,EAAE,GAAG;CACrB;;AACD,AAAA,KAAK,CAAC;EACF,aAAa,EAAE,GAAG;CACrB",
+    "sources": [
+        "element.scss"
+    ],
+    "names": [],
+    "file": "element.css"
+}

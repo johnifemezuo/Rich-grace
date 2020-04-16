@@ -1,0 +1,108 @@
+
+@mixin align-items($align) {
+    display: flex;
+    justify-content: $align;
+    // align-items: center;
+}
+
+@mixin scroll-snap {
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    -webkit-overflow-scrolling: touch;
+}
+@mixin scroll-img {
+    scroll-snap-align: center;
+    object-fit: cover;
+}
+
+@mixin backgroundImage-setting {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+// override align-item 
+@mixin scroll-not {
+    scroll-snap-type: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+// TRANSITION
+@mixin transition {
+    transition: .5s;
+}
+
+// MEDIA QUERY from mobile size to desktop
+// @mixin media-md {
+//     @media screen and (min-width: 765px){
+//         @content;
+//     }
+// }
+
+@mixin media-lg {
+    @media screen and (min-width: 1024px){
+        @content;
+    }
+}
+
+// @mixin media-xl {
+//     @media screen and (min-width: 1600px){
+//         @content;
+//     }
+// }
+
+
+// MEDIA QUERY from desktop size to mobile
+@mixin media-md {
+    @media screen and (min-width: 765px){
+        @content;
+    }
+}
+
+@mixin grid-2-col {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
