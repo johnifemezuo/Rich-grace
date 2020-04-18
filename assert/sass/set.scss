@@ -2,7 +2,6 @@
 @mixin align-items($align) {
     display: flex;
     justify-content: $align;
-    // align-items: center;
 }
 
 @mixin scroll-snap {
@@ -75,7 +74,14 @@
 
 
 
-
+// ANIMATION
+@mixin background-img-animation($name) {
+    animation-name: $name;
+    animation-duration: .9s;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; 
+}
 
 
 
